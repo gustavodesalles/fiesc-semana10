@@ -25,7 +25,7 @@ public class Ex4 {
 
 
         if (date.getDayOfWeek() == DayOfWeek.FRIDAY && date.getDayOfMonth() == 13) {
-            System.out.println("Boo!");
+            System.out.println("Boo! É sexta-feira 13!");
         }
     }
 }
