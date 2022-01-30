@@ -25,10 +25,10 @@ public class Ex7 {
         do {
             try {
                 System.out.println("Digite um caractere:");
-                myChar = input.findInLine(".").charAt(0);
-                input.close();
+                myChar = input.next(".").charAt(0);
             } catch (InputMismatchException i) {
                 System.out.println("Favor digitar somente um caractere.");
+                input.nextLine();
             }
         } while (myChar == 0);
 
