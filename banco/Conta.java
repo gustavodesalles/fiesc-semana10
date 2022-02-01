@@ -26,4 +26,9 @@ public class Conta {
     public String getCPF() {
         return CPF;
     }
+
+    @Override
+    public String toString() {
+        return nome + ',' + CPF + ',' + saldo;
+    }
 }
